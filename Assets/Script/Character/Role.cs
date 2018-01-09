@@ -113,6 +113,11 @@ public class Role : MonoBehaviour {
 		get{return characterNum;}
 	}
 
+	protected const float JUMP_CDTIME = 0;
+	protected const float BIGJUMP_CDTIME = 1;
+	protected const float BESKILLCDTIME = 1;
+	protected const float BEJUMPCDTIME = 1.3f;
+
 	public AudioSource DieVoice;	//死亡音效 目前只有蝴蝶跟炎龍有而已
 	void Start () {
 		AttCheck = true;	//這表示現在可以被攻擊地板攻擊
@@ -434,7 +439,7 @@ public class Role : MonoBehaviour {
 				if(JumpCheck == true)	//JumpCheck表示現在可以釋放小跳
 				{
 					plysit = "jumpingpar";		//狀態改為跳躍前預備 (會先有跳躍前的預備動作)
-					StartCoroutine(TransToJump(0f));	//延遲0秒後轉換成跳躍的程式碼
+					StartCoroutine(TransToJump(JUMP_CDTIME));	//延遲0秒後轉換成跳躍的程式碼
 					rigidbody.useGravity = false;	//關閉地吸引力 因為跳躍會有自己的方程式 不能受到地吸引力的影響
 					JumpCheck = false;	//改為不能釋放小跳攻擊
 				}
@@ -447,7 +452,7 @@ public class Role : MonoBehaviour {
 					if(BigJumpCheck ==true)	//BigJumpCheck表示現在可以釋放大跳躍
 					{
 						plysit = "bigjumppar";		//狀態改為跳躍
-						StartCoroutine(TransToBigJump(1f));	//延遲1秒後轉換成大跳躍的程式碼
+						StartCoroutine(TransToJump(BIGJUMP_CDTIME));	//延遲1秒後轉換成大跳躍的程式碼
 						rigidbody.useGravity = false;	//關閉地吸引力 因為跳躍會有自己的方程式 不能受到地吸引力的影響
 						BigJumpCheck = false;	//改為不能釋放大跳攻擊
 						AngryCheck = false;		//改成false表示現在憤怒值還沒滿
@@ -627,32 +632,24 @@ public class Role : MonoBehaviour {
 		
 	}
 	
-	IEnumerator DelayAtt(float num)		//小跳落地後的攻擊地板延遲產生函數
+	IEnumerator DelayAtt(float num,GameObject attRange)		//小跳落地後的攻擊地板延遲產生函數
 	{
 		yield return new WaitForSeconds(num);//經過num秒後
 		GameObject clone;	//宣告一個clone的物件
-		clone = Instantiate(AttRange,AttRangePos.position,AttRangePos.rotation) as GameObject;	//產生攻擊地板 切將物件存入clone中
+		clone = Instantiate(attRange,AttRangePos.position,AttRangePos.rotation) as GameObject;	//產生攻擊地板 切將物件存入clone中
 		clone.gameObject.name = PlyNum.ToString();	//將clone的名稱改為角色編號 方便玩家攻擊判斷
 	}
-	
-	IEnumerator DelayBigAtt(float num)		//大跳落地後的攻擊地板延遲產生函數             
-	{
-		yield return new WaitForSeconds(num);//經過num秒後
-		GameObject clone;	//宣告一個clone的物件
-		clone = Instantiate(BigAttRange,AttRangePos.position,AttRangePos.rotation) as GameObject;	//產生攻擊地板 切將物件存入clone中
-		clone.gameObject.name = PlyNum.ToString();	//將clone的名稱改為角色編號 方便玩家攻擊判斷
-	}
-	
+
 	IEnumerator TransToJump(float num)	//小跳起跳前的預備延遲
 	{
-		yield return new WaitForSeconds(num);	//延遲num秒後
-		plysit = "jumping";	//將狀態改為jumping
-	}
-	
-	IEnumerator TransToBigJump(float num) 	//大跳起跳前的預備延遲
-	{
-		yield return new WaitForSeconds(num);	//延遲num秒後
-		plysit = "bigjump";	//將狀態改為bigjump
+		if (num == JUMP_CDTIME) 
+		{
+			yield return new WaitForSeconds (num);	//延遲num秒後
+			plysit = "jumping";	//將狀態改為jumping
+		} else if(num == BIGJUMP_CDTIME) {
+			yield return new WaitForSeconds(num);	//延遲num秒後
+			plysit = "bigjump";	//將狀態改為bigjump
+		}
 	}
 	
 	IEnumerator BigJumpSkill()	//大跳躍釋放後的慢動作控制                    
@@ -665,17 +662,18 @@ public class Role : MonoBehaviour {
 	}
 	IEnumerator SkillDamage(float num)	//被突進攻擊的延遲 如果SkillDamCheck為true表示會扣血 (被突進攻擊一次後會有一點點的時間不會被突進攻擊扣血 避免被同一個攻擊扣兩次血)
 	{
-		yield return new WaitForSeconds(num);	//經過num秒後
-		SkillDamCheck = true;	//將SkillDamCheck為true
+		if (num == BESKILLCDTIME) 
+		{
+			yield return new WaitForSeconds(num);	//經過num秒後
+			SkillDamCheck = true;	//將SkillDamCheck為true
+			Debug.Log("be skill attacked");
+		} else if (num == BEJUMPCDTIME) {
+			yield return new WaitForSeconds(num);	//經過num秒後
+			AttCheck = true;	//將AttCheck為true
+			Debug.Log("be jump attacked");
+		}
 		
 	}
-	
-	IEnumerator AttDamage(float num)	//被大跳雨小跳攻擊的延遲 (跟上面SkillDamage一樣)
-	{
-		yield return new WaitForSeconds(num);	//經過num秒後
-		AttCheck = true;	//將AttCheck為true
-	}
-	
 	
 	void DamageImgShow(int num)	//頭頂扣血的展示
 	{
@@ -781,7 +779,7 @@ public class Role : MonoBehaviour {
 			Debug.Log("Player Out");		//Unity顯示Player Out 表示角色出戒
 			if(plysit == "jumping")			//如果為小跳躍狀態時 (表示跳躍的時候碰到界線物件)
 			{
-				StartCoroutine(DelayAtt(0f));	//落地後延遲0秒產生攻擊地板
+				StartCoroutine(DelayAtt(0f,AttRange));	//落地後延遲0秒產生攻擊地板
 				plysit = "MoveDelay";	//狀態改為MoveDelay 表示落地的延遲
 				MoveDelayTime = 1f;		//延遲1秒鐘
 				JumpDis = _JumpDis;		//記錄JumpDis
@@ -789,7 +787,7 @@ public class Role : MonoBehaviour {
 			
 			if(plysit == "bigjump")				//如果為大跳躍狀態時 (表示跳躍的時候碰到界線物件)
 			{
-				StartCoroutine(DelayBigAtt(0f));	//落地後延遲0秒產生攻擊地板
+				StartCoroutine(DelayAtt(0f,BigAttRange));	//落地後延遲0秒產生攻擊地板
 				
 				plysit = "MoveDelay";	//狀態改為MoveDelay 表示落地的延遲
 				MoveDelayTime = 2f;		//延遲2秒鐘
@@ -828,7 +826,7 @@ public class Role : MonoBehaviour {
 		{
 			if(plysit == "jumping")		//如果為跳躍要降落後
 			{
-				StartCoroutine(DelayAtt(0f));	//落地後延遲0秒產生攻擊地板
+				StartCoroutine(DelayAtt(0f,AttRange));	//落地後延遲0秒產生攻擊地板
 				plysit = "MoveDelay";	//狀態改為MoveDelay 表示落地的延遲
 				MoveDelayTime = 1f;	//延遲1秒鐘
 				JumpDis = _JumpDis;	//記錄JumpDis
@@ -836,7 +834,7 @@ public class Role : MonoBehaviour {
 			
 			if(plysit == "bigjump")				//如果為跳躍要降落後
 			{
-				StartCoroutine(DelayBigAtt(0f));	//落地後延遲0秒產生攻擊地板				
+				StartCoroutine(DelayAtt(0f,BigAttRange));	//落地後延遲0秒產生攻擊地板				
 				plysit = "MoveDelay";	//狀態改為MoveDelay 表示落地的延遲
 				MoveDelayTime = 2f;	//延遲2秒鐘
 				BigJumpDis = _BigJumpDis;	//記錄BigJumpDis		
@@ -890,7 +888,7 @@ public class Role : MonoBehaviour {
 						AttName = other.gameObject.name;	//記錄被攻擊的玩家編號
 						blood -=float.Parse(other.gameObject.tag);	//依物件的tag當作扣寫的依據
 						Instantiate(WaAtt,transform.position,transform.rotation);	//顯示受傷特效
-						StartCoroutine(AttDamage(1.3f));	//AttCheck延遲1.3秒後再改為True (表示這1.3秒內不會被大跳小跳攻擊而損血)
+						StartCoroutine(SkillDamage(BEJUMPCDTIME));	//AttCheck延遲1.3秒後再改為True (表示這1.3秒內不會被大跳小跳攻擊而損血)
 					}
 				}
 				
@@ -968,7 +966,7 @@ public class Role : MonoBehaviour {
 						SkillDamCheck = false;	//改為False 避免扣血扣太快
 						DamageImgShow(int.Parse(other.gameObject.tag));		//依攻擊物件的tag做為扣血顯示的依據
 						blood -=float.Parse(other.gameObject.tag);		///依攻擊物件的tag做為扣血的依據
-						StartCoroutine(SkillDamage(1f));	//SkillDamCheck的延遲 1秒後改為true
+						StartCoroutine(SkillDamage(BESKILLCDTIME));	//SkillDamCheck的延遲 1秒後改為true
 					}
 				}
 			}
