@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: af835ddeac059b34ca8362c4c6dbfc9b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone007
+    100002: Box111
+    100004: Box112
+    100006: Box113
+    100008: Box114
+    100010: Box115
+    100012: Box116
+    100014: Box117
+    100016: Box118
+    100018: Box119
+    100020: Box120
+    100022: Group006
+    100024: Group008
+    100026: Group009
+    100028: Group010
+    100030: map002_stone002
+    100032: //RootNode
+    100034: Object016
+    100036: Object017
+    100038: Object018
+    100040: Plane030
+    100042: Plane031
+    100044: Plane032
+    100046: Plane033
+    400000: Bone007
+    400002: Box111
+    400004: Box112
+    400006: Box113
+    400008: Box114
+    400010: Box115
+    400012: Box116
+    400014: Box117
+    400016: Box118
+    400018: Box119
+    400020: Box120
+    400022: Group006
+    400024: Group008
+    400026: Group009
+    400028: Group010
+    400030: map002_stone002
+    400032: //RootNode
+    400034: Object016
+    400036: Object017
+    400038: Object018
+    400040: Plane030
+    400042: Plane031
+    400044: Plane032
+    400046: Plane033
+    4300000: Box115
+    4300002: Plane031
+    4300004: Object016
+    4300006: Box116
+    4300008: Object018
+    4300010: Box119
+    4300012: Plane033
+    4300014: Box120
+    4300016: Box117
+    4300018: Plane032
+    4300020: Object017
+    4300022: Box118
+    4300024: Box111
+    4300026: Box112
+    4300028: Plane030
+    4300030: Box113
+    4300032: Box114
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Box111
+    13700002: Box112
+    13700004: Box113
+    13700006: Box114
+    13700008: Box115
+    13700010: Box116
+    13700012: Box117
+    13700014: Box118
+    13700016: Box119
+    13700018: Box120
+    13700020: Object016
+    13700022: Object017
+    13700024: Object018
+    13700026: Plane030
+    13700028: Plane031
+    13700030: Plane032
+    13700032: Plane033
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone007
+        weight: 1
+      - path: map002_stone002
+        weight: 1
+      - path: map002_stone002/Group006
+        weight: 1
+      - path: map002_stone002/Group006/Box111
+        weight: 1
+      - path: map002_stone002/Group006/Box112
+        weight: 1
+      - path: map002_stone002/Group006/Box113
+        weight: 1
+      - path: map002_stone002/Group006/Box114
+        weight: 1
+      - path: map002_stone002/Group006/Plane030
+        weight: 1
+      - path: map002_stone002/Group008
+        weight: 1
+      - path: map002_stone002/Group008/Box115
+        weight: 1
+      - path: map002_stone002/Group008/Box116
+        weight: 1
+      - path: map002_stone002/Group008/Object016
+        weight: 1
+      - path: map002_stone002/Group008/Plane031
+        weight: 1
+      - path: map002_stone002/Group009
+        weight: 1
+      - path: map002_stone002/Group009/Box117
+        weight: 1
+      - path: map002_stone002/Group009/Box118
+        weight: 1
+      - path: map002_stone002/Group009/Object017
+        weight: 1
+      - path: map002_stone002/Group009/Plane032
+        weight: 1
+      - path: map002_stone002/Group010
+        weight: 1
+      - path: map002_stone002/Group010/Box119
+        weight: 1
+      - path: map002_stone002/Group010/Box120
+        weight: 1
+      - path: map002_stone002/Group010/Object018
+        weight: 1
+      - path: map002_stone002/Group010/Plane033
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

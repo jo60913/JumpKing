@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 9a27a2ef29c8e8e4581d486b6fdb3a9a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 309
+    100002: 310
+    100004: 311
+    100006: 316
+    100008: 317
+    100010: Box003
+    100012: Box052
+    100014: Box052 1
+    100016: Box053
+    100018: Box054
+    100020: Box055
+    100022: Box056
+    100024: Box057
+    100026: Box058
+    100028: Box059
+    100030: Box060
+    100032: Box061
+    100034: Box061 1
+    100036: Box062
+    100038: Box062 1
+    100040: Box063
+    100042: Box063 1
+    100044: Box064
+    100046: Box064 1
+    100048: Box065
+    100050: Box065 1
+    100052: Box066
+    100054: Box067
+    100056: Box068
+    100058: Box069
+    100060: Box070
+    100062: Box071
+    100064: Box072
+    100066: Box073
+    100068: Box125
+    100070: Box126
+    100072: Box127
+    100074: Box128
+    100076: Box129
+    100078: Box130
+    100080: Box131
+    100082: Box132
+    100084: Box133
+    100086: Box134
+    100088: Box135
+    100090: Box136
+    100092: Group001
+    100094: Object011
+    100096: Object011 1
+    100098: Object012
+    100100: Plane020
+    100102: Plane021
+    100104: Plane022
+    100106: Plane023
+    100108: Plane024
+    100110: Plane025
+    100112: Plane026
+    100114: Plane027
+    100116: Plane028
+    100118: Plane029
+    100120: Plane030
+    100122: //RootNode
+    400000: 309
+    400002: 310
+    400004: 311
+    400006: 316
+    400008: 317
+    400010: Box003
+    400012: Box052
+    400014: Box052 1
+    400016: Box053
+    400018: Box054
+    400020: Box055
+    400022: Box056
+    400024: Box057
+    400026: Box058
+    400028: Box059
+    400030: Box060
+    400032: Box061
+    400034: Box061 1
+    400036: Box062
+    400038: Box062 1
+    400040: Box063
+    400042: Box063 1
+    400044: Box064
+    400046: Box064 1
+    400048: Box065
+    400050: Box065 1
+    400052: Box066
+    400054: Box067
+    400056: Box068
+    400058: Box069
+    400060: Box070
+    400062: Box071
+    400064: Box072
+    400066: Box073
+    400068: Box125
+    400070: Box126
+    400072: Box127
+    400074: Box128
+    400076: Box129
+    400078: Box130
+    400080: Box131
+    400082: Box132
+    400084: Box133
+    400086: Box134
+    400088: Box135
+    400090: Box136
+    400092: Group001
+    400094: Object011
+    400096: Object011 1
+    400098: Object012
+    400100: Plane020
+    400102: Plane021
+    400104: Plane022
+    400106: Plane023
+    400108: Plane024
+    400110: Plane025
+    400112: Plane026
+    400114: Plane027
+    400116: Plane028
+    400118: Plane029
+    400120: Plane030
+    400122: //RootNode
+    2300000: 309
+    2300002: 310
+    2300004: 311
+    2300006: 316
+    2300008: 317
+    2300010: Box003
+    2300012: Box052
+    2300014: Box052 1
+    2300016: Box053
+    2300018: Box054
+    2300020: Box055
+    2300022: Box056
+    2300024: Box057
+    2300026: Box058
+    2300028: Box059
+    2300030: Box060
+    2300032: Box061
+    2300034: Box061 1
+    2300036: Box062
+    2300038: Box062 1
+    2300040: Box063
+    2300042: Box063 1
+    2300044: Box064
+    2300046: Box064 1
+    2300048: Box065
+    2300050: Box065 1
+    2300052: Box066
+    2300054: Box067
+    2300056: Box068
+    2300058: Box069
+    2300060: Box070
+    2300062: Box071
+    2300064: Box072
+    2300066: Box073
+    2300068: Box125
+    2300070: Box126
+    2300072: Box127
+    2300074: Box128
+    2300076: Box129
+    2300078: Box130
+    2300080: Box131
+    2300082: Box132
+    2300084: Box133
+    2300086: Box134
+    2300088: Box135
+    2300090: Box136
+    2300092: Object011
+    2300094: Object011 1
+    2300096: Object012
+    2300098: Plane020
+    2300100: Plane021
+    2300102: Plane022
+    2300104: Plane023
+    2300106: Plane024
+    2300108: Plane025
+    2300110: Plane026
+    2300112: Plane027
+    2300114: Plane028
+    2300116: Plane029
+    2300118: Plane030
+    3300000: 309
+    3300002: 310
+    3300004: 311
+    3300006: 316
+    3300008: 317
+    3300010: Box003
+    3300012: Box052
+    3300014: Box052 1
+    3300016: Box053
+    3300018: Box054
+    3300020: Box055
+    3300022: Box056
+    3300024: Box057
+    3300026: Box058
+    3300028: Box059
+    3300030: Box060
+    3300032: Box061
+    3300034: Box061 1
+    3300036: Box062
+    3300038: Box062 1
+    3300040: Box063
+    3300042: Box063 1
+    3300044: Box064
+    3300046: Box064 1
+    3300048: Box065
+    3300050: Box065 1
+    3300052: Box066
+    3300054: Box067
+    3300056: Box068
+    3300058: Box069
+    3300060: Box070
+    3300062: Box071
+    3300064: Box072
+    3300066: Box073
+    3300068: Box125
+    3300070: Box126
+    3300072: Box127
+    3300074: Box128
+    3300076: Box129
+    3300078: Box130
+    3300080: Box131
+    3300082: Box132
+    3300084: Box133
+    3300086: Box134
+    3300088: Box135
+    3300090: Box136
+    3300092: Object011
+    3300094: Object011 1
+    3300096: Object012
+    3300098: Plane020
+    3300100: Plane021
+    3300102: Plane022
+    3300104: Plane023
+    3300106: Plane024
+    3300108: Plane025
+    3300110: Plane026
+    3300112: Plane027
+    3300114: Plane028
+    3300116: Plane029
+    3300118: Plane030
+    4300000: Box052
+    4300002: Box003
+    4300004: 309
+    4300006: 310
+    4300008: 311
+    4300010: Box072
+    4300012: Plane020
+    4300014: Plane021
+    4300016: Plane022
+    4300018: Plane023
+    4300020: Box052
+    4300022: Box053
+    4300024: Plane025
+    4300026: Box054
+    4300028: Box055
+    4300030: Box056
+    4300032: Box057
+    4300034: Box058
+    4300036: Box059
+    4300038: Box060
+    4300040: Plane024
+    4300042: Box061
+    4300044: Box068
+    4300046: Box063
+    4300048: Box067
+    4300050: Box065
+    4300052: Box066
+    4300054: Box062
+    4300056: Object011
+    4300058: Object012
+    4300060: Box064
+    4300062: Plane026
+    4300064: Box071
+    4300066: Plane027
+    4300068: Plane028
+    4300070: Plane029
+    4300072: Box069
+    4300074: Box070
+    4300076: Box073
+    4300078: 316
+    4300080: 317
+    4300082: Box125
+    4300084: Box126
+    4300086: Box127
+    4300088: Box128
+    4300090: Box129
+    4300092: Box130
+    4300094: Box131
+    4300096: Box132
+    4300098: Box133
+    4300100: Box134
+    4300102: Box135
+    4300104: Box136
+    4300106: Plane030
+    4300108: Box065
+    4300110: Box064
+    4300112: Box061
+    4300114: Box062
+    4300116: Box063
+    4300118: Object011
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

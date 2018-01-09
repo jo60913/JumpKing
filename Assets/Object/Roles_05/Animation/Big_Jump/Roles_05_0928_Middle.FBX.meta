@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: 80d5ffa5d70d16b40a71d89d4b05a81f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone005(mirrored)
+    100012: Bone006
+    100014: Bone006(mirrored)
+    100016: Bone007
+    100018: Bone007(mirrored)
+    100020: Bone008
+    100022: Bone008(mirrored)
+    100024: Bone009
+    100026: Bone009(mirrored)
+    100028: Bone010
+    100030: Bone010(mirrored)
+    100032: Bone011
+    100034: Bone011(mirrored)
+    100036: Bone012
+    100038: Bone012(mirrored)
+    100040: Bone013
+    100042: Bone013(mirrored)
+    100044: Bone014
+    100046: Bone014(mirrored)
+    100048: Bone015
+    100050: Bone015(mirrored)
+    100052: Bone016
+    100054: Bone016(mirrored)
+    100056: Bone017
+    100058: Bone017(mirrored)
+    100060: Bone018
+    100062: Bone018(mirrored)
+    100064: Bone019
+    100066: Bone019(mirrored)
+    100068: Bone020
+    100070: Bone020(mirrored)
+    100072: Bone021
+    100074: Bone021(mirrored)
+    100076: Bone022
+    100078: Bone022(mirrored)
+    100080: Bone023
+    100082: Bone023(mirrored)
+    100084: Bone024
+    100086: Bone024(mirrored)
+    100088: Bone025
+    100090: Bone025(mirrored)
+    100092: Bone026
+    100094: Bone026(mirrored)
+    100096: Bone027
+    100098: Bone027(mirrored)
+    100100: Bone028
+    100102: Bone028(mirrored)
+    100104: Bone029
+    100106: Bone029(mirrored)
+    100108: Bone030
+    100110: Bone030(mirrored)
+    100112: Bone031
+    100114: Bone031(mirrored)
+    100116: Object003
+    100118: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone005(mirrored)
+    400012: Bone006
+    400014: Bone006(mirrored)
+    400016: Bone007
+    400018: Bone007(mirrored)
+    400020: Bone008
+    400022: Bone008(mirrored)
+    400024: Bone009
+    400026: Bone009(mirrored)
+    400028: Bone010
+    400030: Bone010(mirrored)
+    400032: Bone011
+    400034: Bone011(mirrored)
+    400036: Bone012
+    400038: Bone012(mirrored)
+    400040: Bone013
+    400042: Bone013(mirrored)
+    400044: Bone014
+    400046: Bone014(mirrored)
+    400048: Bone015
+    400050: Bone015(mirrored)
+    400052: Bone016
+    400054: Bone016(mirrored)
+    400056: Bone017
+    400058: Bone017(mirrored)
+    400060: Bone018
+    400062: Bone018(mirrored)
+    400064: Bone019
+    400066: Bone019(mirrored)
+    400068: Bone020
+    400070: Bone020(mirrored)
+    400072: Bone021
+    400074: Bone021(mirrored)
+    400076: Bone022
+    400078: Bone022(mirrored)
+    400080: Bone023
+    400082: Bone023(mirrored)
+    400084: Bone024
+    400086: Bone024(mirrored)
+    400088: Bone025
+    400090: Bone025(mirrored)
+    400092: Bone026
+    400094: Bone026(mirrored)
+    400096: Bone027
+    400098: Bone027(mirrored)
+    400100: Bone028
+    400102: Bone028(mirrored)
+    400104: Bone029
+    400106: Bone029(mirrored)
+    400108: Bone030
+    400110: Bone030(mirrored)
+    400112: Bone031
+    400114: Bone031(mirrored)
+    400116: Object003
+    400118: //RootNode
+    4300000: Object003
+    7400000: Squid_Big_Jump_Middle
+    9500000: //RootNode
+    13700000: Object003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Squid_Big_Jump_Middle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005/Bone006
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005(mirrored)
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005(mirrored)/Bone006(mirrored)
+        weight: 1
+      - path: Bone001/Bone007
+        weight: 1
+      - path: Bone001/Bone007/Bone008
+        weight: 1
+      - path: Bone001/Bone007/Bone008/Bone009
+        weight: 1
+      - path: Bone001/Bone007/Bone008/Bone009/Bone010
+        weight: 1
+      - path: Bone001/Bone007/Bone008/Bone011
+        weight: 1
+      - path: Bone001/Bone007/Bone008/Bone011/Bone012
+        weight: 1
+      - path: Bone001/Bone007/Bone008/Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone001/Bone007(mirrored)
+        weight: 1
+      - path: Bone001/Bone007(mirrored)/Bone008(mirrored)
+        weight: 1
+      - path: Bone001/Bone007(mirrored)/Bone008(mirrored)/Bone009(mirrored)
+        weight: 1
+      - path: Bone001/Bone007(mirrored)/Bone008(mirrored)/Bone009(mirrored)/Bone010(mirrored)
+        weight: 1
+      - path: Bone001/Bone007(mirrored)/Bone008(mirrored)/Bone011(mirrored)
+        weight: 1
+      - path: Bone001/Bone007(mirrored)/Bone008(mirrored)/Bone011(mirrored)/Bone012(mirrored)
+        weight: 1
+      - path: Bone001/Bone007(mirrored)/Bone008(mirrored)/Bone011(mirrored)/Bone012(mirrored)/Bone013(mirrored)
+        weight: 1
+      - path: Bone001/Bone014
+        weight: 1
+      - path: Bone001/Bone014/Bone015
+        weight: 1
+      - path: Bone001/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Bone001/Bone014/Bone015/Bone016/Bone017
+        weight: 1
+      - path: Bone001/Bone014/Bone015/Bone016/Bone017/Bone018
+        weight: 1
+      - path: Bone001/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Bone001/Bone014/Bone015/Bone016/Bone017/Bone018/Bone019/Bone020
+        weight: 1
+      - path: Bone001/Bone014/Bone015/Bone016/Bone017/Bone021
+        weight: 1
+      - path: Bone001/Bone014/Bone015/Bone016/Bone017/Bone021/Bone022
+        weight: 1
+      - path: Bone001/Bone014(mirrored)
+        weight: 1
+      - path: Bone001/Bone014(mirrored)/Bone015(mirrored)
+        weight: 1
+      - path: Bone001/Bone014(mirrored)/Bone015(mirrored)/Bone016(mirrored)
+        weight: 1
+      - path: Bone001/Bone014(mirrored)/Bone015(mirrored)/Bone016(mirrored)/Bone017(mirrored)
+        weight: 1
+      - path: Bone001/Bone014(mirrored)/Bone015(mirrored)/Bone016(mirrored)/Bone017(mirrored)/Bone018(mirrored)
+        weight: 1
+      - path: Bone001/Bone014(mirrored)/Bone015(mirrored)/Bone016(mirrored)/Bone017(mirrored)/Bone018(mirrored)/Bone019(mirrored)
+        weight: 1
+      - path: Bone001/Bone014(mirrored)/Bone015(mirrored)/Bone016(mirrored)/Bone017(mirrored)/Bone018(mirrored)/Bone019(mirrored)/Bone020(mirrored)
+        weight: 1
+      - path: Bone001/Bone014(mirrored)/Bone015(mirrored)/Bone016(mirrored)/Bone017(mirrored)/Bone021(mirrored)
+        weight: 1
+      - path: Bone001/Bone014(mirrored)/Bone015(mirrored)/Bone016(mirrored)/Bone017(mirrored)/Bone021(mirrored)/Bone022(mirrored)
+        weight: 1
+      - path: Bone001/Bone023
+        weight: 1
+      - path: Bone001/Bone023/Bone024
+        weight: 1
+      - path: Bone001/Bone023/Bone024/Bone025
+        weight: 1
+      - path: Bone001/Bone023/Bone024/Bone025/Bone026
+        weight: 1
+      - path: Bone001/Bone023/Bone024/Bone025/Bone026/Bone027
+        weight: 1
+      - path: Bone001/Bone023(mirrored)
+        weight: 1
+      - path: Bone001/Bone023(mirrored)/Bone024(mirrored)
+        weight: 1
+      - path: Bone001/Bone023(mirrored)/Bone024(mirrored)/Bone025(mirrored)
+        weight: 1
+      - path: Bone001/Bone023(mirrored)/Bone024(mirrored)/Bone025(mirrored)/Bone026(mirrored)
+        weight: 1
+      - path: Bone001/Bone023(mirrored)/Bone024(mirrored)/Bone025(mirrored)/Bone026(mirrored)/Bone027(mirrored)
+        weight: 1
+      - path: Bone001/Bone028
+        weight: 1
+      - path: Bone001/Bone028/Bone029
+        weight: 1
+      - path: Bone001/Bone028/Bone029/Bone030
+        weight: 1
+      - path: Bone001/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: Bone001/Bone028(mirrored)
+        weight: 1
+      - path: Bone001/Bone028(mirrored)/Bone029(mirrored)
+        weight: 1
+      - path: Bone001/Bone028(mirrored)/Bone029(mirrored)/Bone030(mirrored)
+        weight: 1
+      - path: Bone001/Bone028(mirrored)/Bone029(mirrored)/Bone030(mirrored)/Bone031(mirrored)
+        weight: 1
+      - path: Object003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

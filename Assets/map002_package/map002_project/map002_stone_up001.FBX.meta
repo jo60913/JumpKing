@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: bc5848203b7ef2043a8a224cf554f9f2
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone004
+    100002: Bone005
+    100004: Bone006
+    100006: Box101
+    100008: Box102
+    100010: Box103
+    100012: Box104
+    100014: Box105
+    100016: Box106
+    100018: Box107
+    100020: Box108
+    100022: Box109
+    100024: Box110
+    100026: Box121
+    100028: Box122
+    100030: Box123
+    100032: Box124
+    100034: Group003
+    100036: Group004
+    100038: Group005
+    100040: Group011
+    100042: //RootNode
+    100044: Object012
+    100046: Object013
+    100048: Object014
+    100050: Object015
+    100052: Plane020
+    100054: Plane021
+    100056: Plane022
+    100058: Plane023
+    100060: Plane024
+    100062: Plane025
+    100064: Plane026
+    100066: Plane027
+    100068: Plane028
+    100070: Plane029
+    100072: Plane034
+    100074: stone_mov001
+    400000: Bone004
+    400002: Bone005
+    400004: Bone006
+    400006: Box101
+    400008: Box102
+    400010: Box103
+    400012: Box104
+    400014: Box105
+    400016: Box106
+    400018: Box107
+    400020: Box108
+    400022: Box109
+    400024: Box110
+    400026: Box121
+    400028: Box122
+    400030: Box123
+    400032: Box124
+    400034: Group003
+    400036: Group004
+    400038: Group005
+    400040: Group011
+    400042: //RootNode
+    400044: Object012
+    400046: Object013
+    400048: Object014
+    400050: Object015
+    400052: Plane020
+    400054: Plane021
+    400056: Plane022
+    400058: Plane023
+    400060: Plane024
+    400062: Plane025
+    400064: Plane026
+    400066: Plane027
+    400068: Plane028
+    400070: Plane029
+    400072: Plane034
+    400074: stone_mov001
+    2300000: Box101
+    2300002: Box102
+    2300004: Object012
+    2300006: Object013
+    2300008: Object014
+    2300010: Object015
+    2300012: Plane020
+    2300014: Plane021
+    2300016: Plane022
+    2300018: Plane023
+    2300020: Plane024
+    2300022: Plane025
+    2300024: Plane026
+    2300026: Plane027
+    3300000: Box101
+    3300002: Box102
+    3300004: Object012
+    3300006: Object013
+    3300008: Object014
+    3300010: Object015
+    3300012: Plane020
+    3300014: Plane021
+    3300016: Plane022
+    3300018: Plane023
+    3300020: Plane024
+    3300022: Plane025
+    3300024: Plane026
+    3300026: Plane027
+    4300000: Plane027
+    4300002: Plane026
+    4300004: Plane025
+    4300006: Plane024
+    4300008: Object015
+    4300010: Plane023
+    4300012: Plane022
+    4300014: Plane021
+    4300016: Object012
+    4300018: Object014
+    4300020: Plane020
+    4300022: Object013
+    4300024: Box101
+    4300026: Box102
+    4300028: Plane034
+    4300030: Box121
+    4300032: Box122
+    4300034: Box123
+    4300036: Box124
+    4300038: Box103
+    4300040: Box104
+    4300042: Plane028
+    4300044: Box105
+    4300046: Box106
+    4300048: Box107
+    4300050: Box108
+    4300052: Plane029
+    4300054: Box109
+    4300056: Box110
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Box103
+    13700002: Box104
+    13700004: Box105
+    13700006: Box106
+    13700008: Box107
+    13700010: Box108
+    13700012: Box109
+    13700014: Box110
+    13700016: Box121
+    13700018: Box122
+    13700020: Box123
+    13700022: Box124
+    13700024: Plane028
+    13700026: Plane029
+    13700028: Plane034
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: -20
+      lastFrame: 98
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone004
+        weight: 1
+      - path: Bone004/Bone005
+        weight: 1
+      - path: Bone004/Bone005/Bone006
+        weight: 1
+      - path: Group003
+        weight: 1
+      - path: Group003/Box101
+        weight: 1
+      - path: Group003/Box102
+        weight: 1
+      - path: Group003/Object012
+        weight: 1
+      - path: Group003/Object013
+        weight: 1
+      - path: Group003/Object014
+        weight: 1
+      - path: Group003/Object015
+        weight: 1
+      - path: Group003/Plane020
+        weight: 1
+      - path: Group003/Plane021
+        weight: 1
+      - path: Group003/Plane022
+        weight: 1
+      - path: Group003/Plane023
+        weight: 1
+      - path: Plane024
+        weight: 1
+      - path: Plane025
+        weight: 1
+      - path: Plane026
+        weight: 1
+      - path: Plane027
+        weight: 1
+      - path: stone_mov001
+        weight: 1
+      - path: stone_mov001/Group004
+        weight: 1
+      - path: stone_mov001/Group004/Box103
+        weight: 1
+      - path: stone_mov001/Group004/Box104
+        weight: 1
+      - path: stone_mov001/Group004/Box105
+        weight: 1
+      - path: stone_mov001/Group004/Box106
+        weight: 1
+      - path: stone_mov001/Group004/Plane028
+        weight: 1
+      - path: stone_mov001/Group005
+        weight: 1
+      - path: stone_mov001/Group005/Box107
+        weight: 1
+      - path: stone_mov001/Group005/Box108
+        weight: 1
+      - path: stone_mov001/Group005/Box109
+        weight: 1
+      - path: stone_mov001/Group005/Box110
+        weight: 1
+      - path: stone_mov001/Group005/Plane029
+        weight: 1
+      - path: stone_mov001/Group011
+        weight: 1
+      - path: stone_mov001/Group011/Box121
+        weight: 1
+      - path: stone_mov001/Group011/Box122
+        weight: 1
+      - path: stone_mov001/Group011/Box123
+        weight: 1
+      - path: stone_mov001/Group011/Box124
+        weight: 1
+      - path: stone_mov001/Group011/Plane034
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
